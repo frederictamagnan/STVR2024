@@ -1,0 +1,37 @@
+{"experiments" : {
+
+    "teaming_execution": {
+        "datapath": "./data/datasets/",
+        "range":[3,90,5],
+        "freq":[0.005,0.003,0.001],
+        "hp":{"freq":0.001}
+    },
+    
+
+    "femto_booking_agilkia_v6": {
+        "datapath": "./data/datasets/",
+        "range":[3,150,5],
+        "freq":[0.05,0.03,0.01],
+        "hp":{"freq":0.01}
+        
+    },
+    "spree_5000_session_wo_responses_agilkia": {
+        "datapath": "./data/datasets/",
+        "range":[3,40,2],
+        "freq":[0.5,0.45],
+        "hp":{"freq":0.45}
+    },
+    "scanette_100043-steps": {
+        "datapath": "./data/datasets/",
+        "range":[3,20,2],
+        "freq":[0.1,0.05],
+        "hp":{"freq":0.05},
+        "experiments":3
+    }
+
+        
+    
+    
+},
+"hp":{"nb_repetition":20}
+}

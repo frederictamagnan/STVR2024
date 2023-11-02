@@ -1,0 +1,34 @@
+{
+    "vae": {
+      "arch": "vae",
+      "div": 10,
+      "name": "scanette_100043-steps",
+      "train": "./data/datasets/scanette_100043-steps_train.txt",
+      "valid": "./data/datasets/scanette_100043-steps_valid.txt",
+      "save_dir": "./data/checkpoints/scanette_100043-steps/vae",
+      "load_model": "",
+      "vocab_size": 200,
+      "dim_z": 51,
+      "dim_emb": 51,
+      "dim_h": 102,
+      "nlayers": 1,
+      "dim_d": 51,
+      "model_type": "vae",
+      "lambda_kl": 0.1,
+      "lambda_adv": 0,
+      "lambda_p": 0,
+      "noise": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "dropout": 0.3,
+      "lr": 0.0005,
+      "epochs": 1,
+      "batch_size": 64,
+      "seed": 1111,
+      "no_cuda": "store_true",
+      "log_interval": 100
+    }
+  }
