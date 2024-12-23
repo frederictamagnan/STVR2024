@@ -1,3 +1,7 @@
+Note : a complete refix of this code will be done by February/march 2025. email-me if you have questions by then : frederic.tamagnan@gmail.com
+
+(main problem : impossible to run properly the embeddings training with the current config. A refix has been done but I will refine it to push a production-grade version)
+
 # Generation of Regression Tests From Logs with Clustering Guided by Usage Patterns
 
 This is the repository of an STVR Journal paper
